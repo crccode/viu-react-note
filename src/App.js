@@ -1,9 +1,11 @@
 import './App.css';
+//IMPORTAMOS EL COMPONENTES QUE CREAMOS 
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-        Hola react
+        <Header/>
     </div>
   );
 }
